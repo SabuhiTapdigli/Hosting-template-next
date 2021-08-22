@@ -10,7 +10,7 @@ export const getStaticProps = async () => {
   return {
     props : { datas }
   }
-}
+} 
 
 export default function Home({datas}) {
 

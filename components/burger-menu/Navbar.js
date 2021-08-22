@@ -8,10 +8,10 @@ const Navbar = ({Nav,BurgerHandlar}) =>{
         <NavLinks onClick ={BurgerHandlar} Nav={Nav}>
             <Link href='/' ><Logo><Image src = '/img/logo.svg' alt = 'logo' height={64} width ={195}/></Logo></Link>
             <Link href="/"><li>Top 10 Web Hostings Services</li></Link>
-            <Link href="/Review"><li>Reviews</li></Link>
-            {/* <NavLink to = '/articles'><li>Articles</li></NavLink>
-            <NavLink to = '/contact-us'><li>Contact Us</li></NavLink>  
-            <NavLink to = '/about-us'> <li>About Us</li></NavLink>   */}
+            <Link href="/reviews"><li>Reviews</li></Link>
+            <Link href="/article"><li>Articles</li></Link>
+            <Link href="/contact"><li>Contact Us</li></Link>
+            <Link href="/about"><li>About Us</li></Link>
         </NavLinks>
     )
 }

@@ -23,7 +23,7 @@ const Partner = ({item,isReview}) =>{
                 {isReview ? null : 
                 <PartnerWhatwelike>
                     {item.whatwelike.map((i)=>{
-                        return(<li key={i.id}><Image src ='/img/check.svg' alt ='check' width={12} height={12}/>{i.name}</li>)
+                        return(<li key={i.id}><Image src ='/img/check.svg' alt ='check' width={12} height={12} /><span className='check-icon'>{i.name}</span></li>)
                     })}
                 </PartnerWhatwelike>
                 

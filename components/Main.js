@@ -1,22 +1,26 @@
 import React from 'react';
-import Layout from '../components/Layout';
-import Title from '../components/Title'
+import Layout from './Layout';
+import Title from './Title'
 import Partner from './Partner';
 import styled from 'styled-components';
+import Sidebar from './Sidebar';
+import Footercontent from './Footercontent'
 const Main = ({datas}) =>{
     const title = 'Top 10 Web Hosting Services of 2021';
     const parag = 'Keep your website up and running with a hosting company that promise high uptime, quick load times,and simple setup'
+    const firsturl = datas.items[0];
     return(
         <Layout>
-            <Title title = {title} parag = {parag}/>
+            <Title title = {title} parag = {parag} firsturl={firsturl && firsturl.url}/>
             <MainSection>
                 <Mainbody>
                     {datas.items.map((item)=>{
                         return(<Partner key = {item.id} item = {item} className='partner'/>)
                     }) }
                 </Mainbody>
-                {/* <Sidebar articles = {datas.articles} firsturl={firsturl} /> */}
+                <Sidebar articles = {datas.articles} firsturl={firsturl} />
             </MainSection>
+            <Footercontent/>
         </Layout>
         
     )

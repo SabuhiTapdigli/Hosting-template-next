@@ -13,7 +13,7 @@ const Footer = () =>{
                 <Footerwrapper>
                     <FooterLinks>
                         <li><Link href='/'>Top 10 Web Hostings Services</Link></li>
-                        <li><Link href='/Review'>Reviews</Link></li>
+                        <li><Link href='/reviews'>Reviews</Link></li>
                         {/* <li><Link to='/articles'>Articles</Link></li>
                         <li><Link to='/contact-us'>Contact Us</Link></li>
                         <li><Link to='/about'>About Us</Link></li> */}
