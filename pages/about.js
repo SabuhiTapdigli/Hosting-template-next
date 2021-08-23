@@ -11,13 +11,9 @@ const About  = () =>{
                 <Title title = {abtitle} parag = {abparag}/>
                 <MainSection>
                     <Mainbody>
-                        <h2>About</h2>
-                        <p>Looking for a free web hosting solution is an imperative decision. Try to identify a reliable web host can be a daunting task especially with so many service providers and options available nowadays. Throw in the feature sheets and promises, the task can be that much more intimidating.
-    But it doesn't have to be. Let's take a look at some of the most common features a good free web hosting provider should offer:</p>
-    <h2>DISK SPACE AND BANDWIDTH</h2>
-    <p>Disk space refers to the amount of storage space assigned to you by the free web hosting provider. This space will be used to store your web site files, including text, images, audio, etc. files you use for your website.
-    Bandwidth refers to the amount of traffic that is allowed to access and leave your website. Access means every time a visitor types in your website name in their browser. Leave means every time a visitor receives something from your website, whether it be viewing a photo, listening to an audio clip or downloading a file.
-    For example, if your website has a lot of graphics (ie. photographs) then you will require higher storage and greater bandwidth.</p>
+                        <h2>About Us</h2>
+                            <p>We are a web hosting comparison site that offers users top performing hosting providers in the industry. Our mission is to make decisions easier for users by helping them choose from the best options available. </p>
+                            <p> We compare hosting companies based on pricing, performance, resources, and other services provided by them. We rank them according to the overall score for each provider that is calculated considering the above factors. We aim to give you quality web hosting options and an easy comparison interface that will make it easier for you to launch your website. Choosing a hosting service can look easy, but elaborate the options we provided for you and try to identify one that best suits your needs.</p>
                     </Mainbody>
                 </MainSection>
             </Container>

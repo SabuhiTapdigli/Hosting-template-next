@@ -4,6 +4,7 @@ import React from 'react'
 // import {NavLink } from "react-router-dom";
 import styled from 'styled-components';
 import Image from 'next/image'
+import Link from 'next/link'
 // import Star from './Star';
 
 const Partner = ({item,isReview}) =>{
@@ -12,7 +13,7 @@ const Partner = ({item,isReview}) =>{
         <Partnerwrapper key = {item.id}>
                 <Partnercol>
                     <PartnerImg className =  {isReview ? 'review' : null}>
-                        <Image src = {`${imgUrl}${item.imgUrl}`} alt = {item.partnerName} height={60} width ={210}/>
+                    <a href = {`${item.url}`} target='_blank' rel="noreferrer"><Image src = {`${imgUrl}${item.imgUrl}`} alt = {item.partnerName} height={60} width ={210}/></a>
                         
                     </PartnerImg>
                     {/* {isReview ? null : <Star/>} */}
@@ -39,8 +40,8 @@ const Partner = ({item,isReview}) =>{
                 <ScoreValue><span>{item.description}/5</span> user rating</ScoreValue>
                 }
                 
-                <a href = {`https://${item.url}`} target='_blank' rel="noreferrer"><VisitButton> Visit Website</VisitButton></a>
-                {/* <ReadReview><NavLink to={`/review/${item.partnerName}`}>Read Review</NavLink></ReadReview> */}
+                <a href = {`${item.url}`} target='_blank' rel="noreferrer"><VisitButton> Visit Website</VisitButton></a>
+                <ReadReview><Link href={'/readreview/'+ item.id}>Read Review</Link></ReadReview>
             </PartnerRating>
         </Partnerwrapper>
     )

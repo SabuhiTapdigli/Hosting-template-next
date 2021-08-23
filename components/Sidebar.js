@@ -14,11 +14,11 @@ const Sidebar = ({articles,firsturl}) =>{
                 <p>Visited website today</p> <span><Image src = '/img/eye.svg' alt = 'eye' width={73} height={73}/></span>
                 </div>
             </Sidebartop>
-            <Sidebarbottom>
-                <PartnerImg><Image src ={`${imgUrl}${firsturl && firsturl.imgUrl}`} alt={firsturl && firsturl.partnerName} height={38} width ={150}/></PartnerImg>
-                <Sidebartext>The Best Web Hosting</Sidebartext>
-                <Sidebarbutton><a href={`https://${firsturl && firsturl.url}`} target='_blank' rel="noreferrer">Visit Website</a></Sidebarbutton>
-                <p>Special Intro Offer And 30-Day Money-Back Guarantee</p>
+            <Sidebarbottom  href={`${firsturl && firsturl.url}`} target='_blank' rel="noreferrer">
+                {/* <PartnerImg><Image src ={`${imgUrl}${firsturl && firsturl.imgUrl}`} alt={firsturl && firsturl.partnerName} height={38} width ={150}/></PartnerImg> */}
+                {/* <Sidebartext>The Best Web Hosting</Sidebartext> */}
+                {/* <Sidebarbutton><a href={`${firsturl && firsturl.url}`} target='_blank' rel="noreferrer">Visit Website</a></Sidebarbutton> */}
+                {/* <p>Special Intro Offer And 30-Day Money-Back Guarantee</p> */}
             </Sidebarbottom>
             <Allarticles>
                 <h2>Must Reads</h2>
@@ -82,17 +82,19 @@ const Sidebartop = styled.div`
     }
 `
 
-const Sidebarbottom = styled.div`
+const Sidebarbottom = styled.a`
     border: 1px solid rgba(2,23,34,0.08);
     border-radius: 5px;
     background-color: #F3F3F3;
     padding:30px 20px;
     width:100%;
-    background-image : url(/img/banner.png);
-    background-size: cover;
+    background-image : url(/img/kamatera.svg);
+    cursor:pointer;
+    // background-size: cover;
     background-repeat: no-repeat;
     background-position: top;
     margin-bottom:10px;
+    height:500px;
     p{
         color: #000000;
         font-size: 15px;

@@ -17,7 +17,7 @@ const Title = ({title,parag,Contact,firsturl}) => {
                             <div>Fast and secure web hosting services at the lowest price </div>
                             <div>Easy setup and good uptime</div>
                         </TtileContent>
-                        {!Contact && <CheckButton><a href={`https://${firsturl}`} target='_blank' rel="noreferrer">Check</a></CheckButton>}
+                        {!Contact && <CheckButton><a href={`${firsturl}`} target='_blank' rel="noreferrer">Check</a></CheckButton>}
                     </Headerwrapper>
                 </Container>
             </BgWrapper>
