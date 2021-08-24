@@ -31,7 +31,6 @@ export const getStaticProps = async (context) =>{
 }
 
 const Reviewreview  = ({datas}) =>{
-        console.log(datas)
     return(
         <Layout>
             <Container>

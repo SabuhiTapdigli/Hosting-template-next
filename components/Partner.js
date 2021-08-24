@@ -1,11 +1,8 @@
 import React from 'react'
-// import top from '../img/top.svg';
-// import check from '../img/check.svg';
-// import {NavLink } from "react-router-dom";
 import styled from 'styled-components';
 import Image from 'next/image'
 import Link from 'next/link'
-// import Star from './Star';
+import Star from './Star';
 
 const Partner = ({item,isReview}) =>{
     const imgUrl = '/img/logos/';
@@ -16,7 +13,7 @@ const Partner = ({item,isReview}) =>{
                     <a href = {`${item.url}`} target='_blank' rel="noreferrer"><Image src = {`${imgUrl}${item.imgUrl}`} alt = {item.partnerName} height={60} width ={210}/></a>
                         
                     </PartnerImg>
-                    {/* {isReview ? null : <Star/>} */}
+                    {isReview ? null : <Star/>}
                 </Partnercol>
             <PartnerContent >
                 <h1>{item.partnerName}</h1>

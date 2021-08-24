@@ -7,7 +7,7 @@ import Sidebar from './Sidebar';
 import Footercontent from './Footercontent'
 const Main = ({datas}) =>{
     const title = 'Top 10 Web Hosting Services of 2021';
-    const parag = 'Keep your website up and running with a hosting company that promise high uptime, quick load times,and simple setup'
+    const parag = '<div>Fast and secure web hosting services at the lowest price </div><div>Easy setup and good uptime</div>'
     const firsturl = datas.items[0];
     return(
         <Layout>

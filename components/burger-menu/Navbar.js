@@ -6,12 +6,12 @@ import Link from 'next/link';
 const Navbar = ({Nav,BurgerHandlar}) =>{
     return(
         <NavLinks onClick ={BurgerHandlar} Nav={Nav}>
-            <Link href='/' ><Logo><Image src = '/img/logo.svg' alt = 'logo' height={64} width ={195}/></Logo></Link>
-            <Link href="/"><li>Top 10 Web Hostings Services</li></Link>
-            <Link href="/reviews"><li>Reviews</li></Link>
-            <Link href="/article"><li>Articles</li></Link>
-            <Link href="/contact"><li>Contact Us</li></Link>
-            <Link href="/about"><li>About Us</li></Link>
+            <Link href='/' passHref={true} ><Logo><Image src = '/img/logo.svg' alt = 'logo' height={64} width ={195}/></Logo></Link>
+            <Link href="/" passHref={true}><li>Top 10 Web Hostings Services</li></Link>
+            <Link href="/reviews" passHref={true}><li>Reviews</li></Link>
+            <Link href="/article" passHref={true}><li>Articles</li></Link>
+            <Link href="/contact" passHref={true}><li>Contact Us</li></Link>
+            <Link href="/about"passHref={true}><li>About Us</li></Link>
         </NavLinks>
     )
 }

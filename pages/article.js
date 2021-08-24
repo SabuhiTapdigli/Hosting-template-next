@@ -15,8 +15,8 @@ export const getStaticProps = async () => {
   } 
 const Article = ({datas}) =>{
     const imgUrl = '/img/articles/'
-    const artitle = 'Must Reads';
-    const arparag = 'Keep your website up and running with a hosting company that promise high uptime, quick load times,and simple setup'
+    const artitle = 'Which Web Hosting Type Should You Choose?';
+    const arparag = 'There are five different types of web hosting. While they all perform the same basic function – providing storage and computational power for your website – they differ in the more granular points, such as capacity and the level of technical expertise necessary.'
     return (
         <Layout>
             <Container>

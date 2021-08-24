@@ -14,8 +14,7 @@ const Title = ({title,parag,Contact,firsturl}) => {
                         <Currentime><div><span><Image src = '/img/tick.svg' alt = 'tick' height={16} width ={16}/></span> Last Updated {date}</div></Currentime>
                         <TitleHeader>{title}</TitleHeader>
                         <TtileContent>
-                            <div>Fast and secure web hosting services at the lowest price </div>
-                            <div>Easy setup and good uptime</div>
+                            <div dangerouslySetInnerHTML={{__html: parag}}/>
                         </TtileContent>
                         {!Contact && <CheckButton><a href={`${firsturl}`} target='_blank' rel="noreferrer">Check</a></CheckButton>}
                     </Headerwrapper>

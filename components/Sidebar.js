@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 // import banner from '../img/banner.png';
 import Toparticles from './Toparticles';
-import Link from 'next/link';
+// import Link from 'next/link';
 import Image from 'next/image';
 const Sidebar = ({articles,firsturl}) =>{
     const imgUrl = '/img/logos/';

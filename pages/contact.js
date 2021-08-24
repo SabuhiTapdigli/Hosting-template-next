@@ -17,11 +17,11 @@ const Contact  = () =>{
                     <Mainbody>
                         
                         <Form >
-                            <Label for ='name'>Your Name</Label>
+                            <Label htmlFor ='name'>Your Name</Label>
                             <Input type='text' name = 'Your Name' placeholder = 'Jhon Doe' required></Input>
-                            <Label for='email'>Email Address</Label>
+                            <Label htmlFor='email'>Email Address</Label>
                             <Input type='email' name = 'email' placeholder = 'example@domain.com' required></Input>
-                            <Label for='subject'>Message</Label>
+                            <Label htmlFor='subject'>Message</Label>
                             <Textarea name="subject" placeholder = 'Tell us breifly about your needs' required ></Textarea>
                             <Button type='submit'>Send</Button>
 

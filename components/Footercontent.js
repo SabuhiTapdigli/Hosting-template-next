@@ -7,19 +7,19 @@ const Footercontent = () =>{
     return(
         <Container>
             <Footertext>
-               <h3>If you are in a hurry, here is the quick guide to hosting</h3>
+               <h1>If you are in a hurry, here is the quick guide to hosting</h1>
                <ul className='footer-lists'>
-                   <li>If you're a beginner in the hosting space or sure that you'll need some guide, <a href=''>Bluehost</a> is the place to go.</li>
-                   <li>For WordPress websites that require high speed and security, <a href=''>SiteGround</a> is a good option.</li>
-                   <li>While <a href=''>Hostinger</a> provides the lowest prices on hosting plans without skimping on resources or features. </li>
-                   <li><a href=''>HostGator</a> is the ideal choice for your simple website if you are sure that you won't need any extra help and technical support from your hosting company. </li>
-                   <li><a href=''>A2 Hosting</a> is an amazing option for websites that need fast loading speeds, particularly for shared hosting and VPS hosting.</li>
-                   <li><a href=''>Kamatera </a>distinguishes itself with its comprehensive cloud-based hosting services and enterprise-level VPS hosting</li>
-                   <li><a href=''>GreenGeeks</a> and <a href=''>Hostpapa</a>  should be your choices if you care about environment as much as your business</li>
-                   <li><a href=''> ChemiCloud </a> and <a href=''> Interserver </a> is the unrivalious in terms of customer support </li>
-                   <li><a href=''>Fastcomet’s </a> support team is ultra-fast as their servers</li>
-                   <li>If you need dedicated hosting with massive configuration options, <a href=''>Hostwinds</a> is the way to go</li>
-                   <li>If the security is your top priority,<a href=''>HostArmada</a>  is the place to go </li>
+                   <li>If you're a beginner in the hosting space or sure that you'll need some guide, <a href='https://www.bluehost.com/track/antecpa/WH01BLT65'>Bluehost</a> is the place to go.</li>
+                   <li>For WordPress websites that require high speed and security, <a href='https://www.siteground.com/index.htm?afcode=b3666d3882e52ccf2dbd0eec1e951a6e'>SiteGround</a> is a good option.</li>
+                   <li>While <a href='https://www.hostg.xyz/aff_c?offer_id=6&aff_id=83402'>Hostinger</a> provides the lowest prices on hosting plans without skimping on resources or features. </li>
+                   <li><a href='https://partners.hostgator.com/c/2926496/177309/3094?subId1=123&partnerpropertyid='>HostGator</a> is the ideal choice for your simple website if you are sure that you won't need any extra help and technical support from your hosting company. </li>
+                   <li><a href='https://www.a2hosting.com?aid=60f2afe403803&data1=value1&data2=value2'>A2 Hosting</a> is an amazing option for websites that need fast loading speeds, particularly for shared hosting and VPS hosting.</li>
+                   <li><a href='https://go.cloudwm.com/visit/?bta=35638&nci=5344&afp='>Kamatera </a>distinguishes itself with its comprehensive cloud-based hosting services and enterprise-level VPS hosting</li>
+                   <li><a href='https://www.greengeeks.com/track/antecpa'>GreenGeeks</a> and <a href='https://tracking.opienetwork.com/aff_c?offer_id=437&aff_id=19008&aff_sub=ante&aff_click_id='>Hostpapa</a>  should be your choices if you care about environment as much as your business</li>
+                   <li><a href='https://chemicloud.com/#60f2b33a61692&data1=value1&data2=value2'> ChemiCloud </a> and <a href='https://www.interserver.net/webhosting?id=749114'> Interserver </a> is the unrivalious in terms of customer support </li>
+                   <li><a href='https://affiliate.fastcomet.com/scripts/2wc9ym?a_aid=60f2b125f038a&a_bid=aaf57ae2'>Fastcomet’s </a> support team is ultra-fast as their servers</li>
+                   <li>If you need dedicated hosting with massive configuration options, <a href='https://affiliates.hostwinds.com/hostwinds.php?id=10961&tid1='>Hostwinds</a> is the way to go</li>
+                   <li>If the security is your top priority,<a href='https://affiliates.hostarmada.com/scripts/q1yoac4x8oq?a_aid=antecpa&data1=value1&data2=value2'>HostArmada</a>  is the place to go </li>
                </ul>
                <h1>What is web hosting?</h1>
                <p>
@@ -58,17 +58,17 @@ Your website is hosted when a hosting service provider allocates space on its we
                 <p>It may be tempting to choose a web hosting provider fast and go on with your business, but taking your time is extremely preferable. You'll be able to find a long-term value provider this way.</p>
                 <p>Here is a quick help to your research of best-hosting providers </p>
                 <ul className='footer-lists'>
-                   <li>If you're a beginner in the hosting space or sure that you'll need some guide, <a href=''>Bluehost</a> is the place to go.</li>
-                   <li>For WordPress websites that require high speed and security, <a href=''>SiteGround</a> is a good option.</li>
-                   <li>While <a href=''>Hostinger</a> provides the lowest prices on hosting plans without skimping on resources or features. </li>
-                   <li><a href=''>HostGator</a> is the ideal choice for your simple website if you are sure that you won't need any extra help and technical support from your hosting company. </li>
-                   <li><a href=''>A2 Hosting</a> is an amazing option for websites that need fast loading speeds, particularly for shared hosting and VPS hosting.</li>
-                   <li><a href=''>Kamatera </a>distinguishes itself with its comprehensive cloud-based hosting services and enterprise-level VPS hosting</li>
-                   <li><a href=''>GreenGeeks</a> and <a href=''>Hostpapa</a>  should be your choices if you care about environment as much as your business</li>
-                   <li><a href=''> ChemiCloud </a> and <a href=''> Interserver </a> is the unrivalious in terms of customer support </li>
-                   <li><a href=''>Fastcomet’s </a> support team is ultra-fast as their servers</li>
-                   <li>If you need dedicated hosting with massive configuration options, <a href=''>Hostwinds</a> is the way to go</li>
-                   <li>If the security is your top priority,<a href=''>HostArmada</a>  is the place to go </li>
+                   <li>If you're a beginner in the hosting space or sure that you'll need some guide, <a href='https://www.bluehost.com/track/antecpa/WH01BLT65'>Bluehost</a> is the place to go.</li>
+                   <li>For WordPress websites that require high speed and security, <a href='https://www.siteground.com/index.htm?afcode=b3666d3882e52ccf2dbd0eec1e951a6e'>SiteGround</a> is a good option.</li>
+                   <li>While <a href='https://www.hostg.xyz/aff_c?offer_id=6&aff_id=83402'>Hostinger</a> provides the lowest prices on hosting plans without skimping on resources or features. </li>
+                   <li><a href='https://partners.hostgator.com/c/2926496/177309/3094?subId1=123&partnerpropertyid='>HostGator</a> is the ideal choice for your simple website if you are sure that you won't need any extra help and technical support from your hosting company. </li>
+                   <li><a href='https://www.a2hosting.com?aid=60f2afe403803&data1=value1&data2=value2'>A2 Hosting</a> is an amazing option for websites that need fast loading speeds, particularly for shared hosting and VPS hosting.</li>
+                   <li><a href='https://go.cloudwm.com/visit/?bta=35638&nci=5344&afp='>Kamatera </a>distinguishes itself with its comprehensive cloud-based hosting services and enterprise-level VPS hosting</li>
+                   <li><a href='https://www.greengeeks.com/track/antecpa'>GreenGeeks</a> and <a href='https://tracking.opienetwork.com/aff_c?offer_id=437&aff_id=19008&aff_sub=ante&aff_click_id='>Hostpapa</a>  should be your choices if you care about environment as much as your business</li>
+                   <li><a href='https://chemicloud.com/#60f2b33a61692&data1=value1&data2=value2'> ChemiCloud </a> and <a href='https://www.interserver.net/webhosting?id=749114'> Interserver </a> is the unrivalious in terms of customer support </li>
+                   <li><a href='https://affiliate.fastcomet.com/scripts/2wc9ym?a_aid=60f2b125f038a&a_bid=aaf57ae2'>Fastcomet’s </a> support team is ultra-fast as their servers</li>
+                   <li>If you need dedicated hosting with massive configuration options, <a href='https://affiliates.hostwinds.com/hostwinds.php?id=10961&tid1='>Hostwinds</a> is the way to go</li>
+                   <li>If the security is your top priority,<a href='https://affiliates.hostarmada.com/scripts/q1yoac4x8oq?a_aid=antecpa&data1=value1&data2=value2'>HostArmada</a>  is the place to go </li>
                </ul>
             </Footertext>
         </Container>
