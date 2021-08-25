@@ -33,7 +33,7 @@ const Article = ({datas}) =>{
                                         <h2>{item.name} </h2>
                                         <span>07 July, 2021</span>
                                         <p>{item.shortText.substring(0,50)}</p>
-                                        {/* <div> <Link href="/`article/${item.name}">Read More {item.name}</Link></div> */}
+                                        <div><Link href={'/readarticle/'+ item.id}>Read Article</Link></div>
                                     </Ariclecontent>
                                 </Articles>
                             )
