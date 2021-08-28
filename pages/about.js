@@ -3,12 +3,12 @@ import styled from 'styled-components';
 import Title from '../components/Title';
 import Layout from '../components/Layout'
 const About  = () =>{
-    const abtitle = 'About Us';
-    const abparag = 'Keep your website up and running with a hosting company that promise high uptime, quick load times,and simple setup'
+    const Contact = true;
+    const abtitle = 'About Us'
     return(
         <Layout>
             <Container>
-                <Title title = {abtitle} parag = {abparag}/>
+                <Title title = {abtitle} Contact ={Contact}/>
                 <MainSection>
                     <Mainbody>
                         <h2>About Us</h2>

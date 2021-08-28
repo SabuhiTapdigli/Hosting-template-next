@@ -17,10 +17,11 @@ const Article = ({datas}) =>{
     const imgUrl = '/img/articles/'
     const artitle = 'Which Web Hosting Type Should You Choose?';
     const arparag = 'There are five different types of web hosting. While they all perform the same basic function – providing storage and computational power for your website – they differ in the more granular points, such as capacity and the level of technical expertise necessary.'
+    const firsturl = datas.items[0];
     return (
         <Layout>
             <Container>
-                <Title title = {artitle} parag = {arparag}/>
+                <Title title = {artitle} parag = {arparag} firsturl={firsturl && firsturl.url}/>
                 <MainSection>
                     <Mainbody>
                         {datas.articles.map((item)=>{

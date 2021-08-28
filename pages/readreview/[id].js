@@ -31,10 +31,13 @@ export const getStaticProps = async (context) =>{
 }
 
 const Reviewreview  = ({datas}) =>{
+    const isReview = true;
+    const revtitle = 'Top 10 Web Hosting Reviews of 2021';
+    const revparag = 'Keep your website up and running with a hosting company that promise high uptime, quick load times,and simple setup'
     return(
         <Layout>
             <Container>
-                <Title/>
+                <Title title = {revtitle} parag = {revparag}/>
                 <MainSection>
                     <Mainbody>
                         <div>

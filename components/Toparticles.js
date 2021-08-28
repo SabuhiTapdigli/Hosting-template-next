@@ -14,7 +14,7 @@ const Toparticles = ({item}) =>{
                     </ArticleImg>
                     <AritcleContent>
                         <p>{item.name}</p>
-                        <Link href={`/readarticle/${item.id}`}>Read More</Link>
+                        <Link href={`/readarticle/${item.slug}`}>Read More </Link>
                     </AritcleContent>
                 </ArticleWrapper>
             </Article>

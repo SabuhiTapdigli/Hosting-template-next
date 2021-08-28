@@ -14,7 +14,7 @@ export const getStaticPaths = async () =>{
 
     const paths =  data.articles.map(item =>{
         return{
-            params: {id:item.id.toString()}
+            params: {slug:item.slug.toString()}
         }
     })
     return{
@@ -23,8 +23,8 @@ export const getStaticPaths = async () =>{
     }
 }
 export const getStaticProps = async (context) =>{
-    const id = context.params.id;
-    const res = await fetch('https://top10-webhostings.com/cp/articles/' + id)
+    const slug = context.params.slug;
+    const res = await fetch('https://top10-webhostings.com/cp/articles/' + slug)
     const datas = await res.json()
     return{
         props: {datas:datas}
